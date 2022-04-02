@@ -1,0 +1,188 @@
+body{
+    align-items: center;
+    margin: 0px;
+    background: rgba(33,33,33,1);
+}
+
+.unselectable { 
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    cursor: default;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background: rgba(33,33,33,0.9);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px 0.1px rgba(0,0,0,0.5)
+}
+
+.menu{
+    height: 100%;
+    width: 100%;
+    
+    background: transparent;
+}
+
+.menuliste{
+    display: flex;
+}
+
+.menuliste a{
+    text-decoration: none;
+}
+
+.menudiv p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    
+    height: 50px;
+    
+    color: #FAF8FF;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+    border-radius: 25px;
+    
+    background: transparent;
+    
+    transition-duration: 0.2s;
+}
+
+.menudiv p:hover{
+    color: #E09F20;
+    margin-top: -5px;
+}
+
+#current{
+    color: #E09F20
+}
+
+#current:hover{
+    margin-top: 5px;
+}
+
+.resaux{
+    margin-left: 0%;
+    
+    height: 100%;
+    width: 25%;
+}
+
+.resauxdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-right: 10px;
+    
+    height: 60px;
+    width: 60px;
+    
+    color: #FAF8FF;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+    border-radius: 60px;
+    
+    background: transparent;
+    
+    transition-duration: 0.2s;
+}
+
+.resauxdiv:hover {
+    color:#212121;
+    background: #E09F20;
+}
+
+.sommaire{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.sommaire ul{
+    list-style: none
+}
+
+.sommaire ul a{
+    color:  white;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.sommaire ul a:hover{
+    color:  #E09F20;
+}
+
+.div_miniatures{
+    height: auto;
+    width: 100%;
+    padding-top: 5%;
+    
+    background: #212121
+}
+
+.youtubeur{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    font-family: sans-serif;
+    color: white;
+}
+
+.miniatures{
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.miniatures img{
+    height: 396;
+    width: 704;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,229 @@
+body{
+    margin: 20px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+    background: rgba(00,00,00,1)
+}
+
+.reproduction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position:inherit;
+}
+
+.menu a span{
+    color: white;
+    font-size: 60px;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.iphone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ecran {
+    margin: 50px;
+    
+    height: 615px;
+    width: 280px;
+    
+    background-image: url(wallpaper.png);
+    
+    
+    box-shadow: 0px 0px 2px 0px white;
+    
+    border-radius: 40px;
+    border: 8px black solid;
+
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    
+    height: 20px;
+    width: 280px;
+    
+    background: transparent;
+}
+
+.topbar p{
+    margin-top: 8px;
+    align-self: baseline;
+    margin-left: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 900
+}
+
+span{
+    margin-top: 8px;
+    align-self: baseline;
+    margin-left: 6px;
+    color: white;
+}
+
+.camera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 22px;
+    width: 140px;
+    
+    margin-left: 18px;
+    
+    background: black;
+    
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.son{
+    margin: 20px;
+    height: 2px;
+    width: 40px;
+    
+    background: black;
+    box-shadow: 0px 0px 1px 0px white;
+    
+    border-radius: 60px;
+    border: 0.1px #3e3e3e solid;
+}
+
+.selfi{
+    height: 3px;
+    width: 3px;
+    
+    background: linear-gradient(282deg, rgba(0,33,255,1) 0%, rgba(0,0,0,1) 38%, rgba(0,31,241,1) 51%, rgba(0,6,43,1) 96%);
+    box-shadow: 0px 0px 1px 0px white;
+    
+    border-radius: 60px;
+    border: 1px black solid;
+}
+
+
+.app{
+    margin-top: 0px;
+    margin-left: 20px;
+    
+    height: 415px;
+    width: 240px;
+    
+    background: transparent;
+}
+
+.ligne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 240px;
+    height: 69.1px;
+}
+
+.texte{
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 9.1px;
+}
+
+.texte p{
+    margin-top: -6px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 8px;
+    font-weight: 900
+}
+
+img{
+    height: 45px;
+    width: 45px;
+    padding: 7.5px;
+}
+
+.dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 60px;
+    margin-left: 0px;
+}
+
+.actif{
+    height: 5px;
+    width: 5px;
+    
+    margin-right: 5px;
+    
+    background-color: white;
+    border-radius: 60px
+}
+
+.innactif{
+    height: 5px;
+    width: 5px;
+    
+    background-color: white;
+    opacity: 50%;
+    
+    border-radius: 60px;
+}
+
+.perma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 30px;
+    margin-left: 15px;
+    padding-top: -10px;
+    
+    height: 70px;
+    width: 250px;
+    
+    background: rgba(255,255,255,0.3);
+    opacity: 100%;
+    
+    border-radius: 20px;
+}
+
+.texteperma{
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 9.1px;
+    margin-top: -49.1px;
+}
+
+.trait{
+    border-left: 1px white solid;
+    padding: 10px;
+}
+
+.trait p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900
+}

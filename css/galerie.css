@@ -1,0 +1,140 @@
+body{
+    align-items: center;
+    margin: 0px;
+    background: rgb(33,33,33);
+}
+
+.unselectable { 
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    cursor: default;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background: rgba(33,33,33,0.9);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px 0.1px rgba(0,0,0,0.5)
+}
+
+.menu{
+    height: 100%;
+    width: 100%;
+    
+    background: transparent;
+}
+
+.menuliste{
+    display: flex;
+}
+
+.menuliste a{
+    text-decoration: none;
+}
+
+.menudiv p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    
+    height: 50px;
+    
+    color: #FAF8FF;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+    border-radius: 25px;
+    
+    background: transparent;
+    
+    transition-duration: 0.2s;
+}
+
+.menudiv p:hover{
+    color: #E09F20;
+    margin-top: -5px;
+}
+
+#current{
+    color: #E09F20
+}
+
+#current:hover{
+    margin-top: 5px;
+}
+
+.resaux{
+    margin-left: 0%;
+    
+    height: 100%;
+    width: 25%;
+}
+
+.resauxdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-right: 10px;
+    
+    height: 60px;
+    width: 60px;
+    
+    color: #FAF8FF;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+    border-radius: 60px;
+    
+    background: transparent;
+    
+    transition-duration: 0.2s;
+}
+
+.resauxdiv:hover {
+    color:#212121;
+    background: #E09F20;
+}
+
+.sous_galerie{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.sous_galerie img{
+    margin: 10px;
+}
+
+.carre{
+    height: 600px;
+    width: 600px;
+}
+
+.portrait{
+    height: 600px;
+    width: 450px;
+}
+
+.iceland{
+    width: 479.938032532px;
+    height: 600px;
+}
+
+.miniature{
+    width: 1066.6px;
+    height: 600px
+}

@@ -1,0 +1,313 @@
+body{
+    align-items: center;
+    margin: 0px;
+}
+
+.unselectable { 
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    cursor: default;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background: rgba(33,33,33,0.9);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px 0.1px rgba(0,0,0,0.5)
+}
+
+.menu{
+    height: 100%;
+    width: 100%;
+    
+    background: transparent;
+}
+
+.menuliste{
+    display: flex;
+}
+
+.menuliste a{
+    text-decoration: none;
+}
+
+.menudiv p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    
+    height: 50px;
+    
+    color: #FAF8FF;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+    border-radius: 25px;
+    
+    background: transparent;
+    
+    transition-duration: 0.2s;
+}
+
+.menudiv p:hover{
+    color: #E09F20;
+    margin-top: -5px;
+}
+
+#current{
+    color: #E09F20
+}
+
+#current:hover{
+    margin-top: 5px;
+}
+
+.resaux{
+    margin-left: 0%;
+    
+    height: 100%;
+    width: 25%;
+}
+
+.resauxdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-right: 10px;
+    
+    height: 60px;
+    width: 60px;
+    
+    color: #FAF8FF;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+    border-radius: 60px;
+    
+    background: transparent;
+    
+    transition-duration: 0.2s;
+}
+
+.resauxdiv:hover {
+    color:#212121;
+    background: #E09F20;
+}
+
+/*
+#insta:hover{
+    background: #FFDC80;
+}
+
+#facebook:hover{
+    background: #4267B2;
+}
+
+#twitter:hover{
+    background: #1DA1F2;
+}
+
+#youtube:hover{
+    background: #ff0000
+}*/
+
+.profil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+    background: #212121;
+}
+
+.divtexteprofil{
+    text-align:right;
+    height: 50%;
+    width: 25%;
+    
+    margin: 10px;
+    
+    color: #FAF8FF;
+    
+    transition-duration: 0.5s;
+}
+
+.divtexteprofil h2{
+    font-family: sans-serif;
+    margin: 10px;
+    margin-top: 25%;
+}
+
+.divtexteprofil p{
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+.divphotoprofil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 350px;
+    width: 350px;
+}
+
+.photoprofil{
+    height: 350px;
+    width: 350px;
+    
+    border-radius: 800px;
+    
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 1px 0.1px rgb(255,255,255)
+}
+
+.contact{
+    height: 90%;
+    width: 100%;
+    
+    background: #212121
+}
+
+.mecontacter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    font-family: sans-serif;
+    color: white;
+}
+
+.divmoyen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+}
+
+.moyen{
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 40px;
+    background: #212121;
+    box-shadow:  10px 10px 20px #1c1c1c,
+             -10px -10px 20px #262626;
+}
+
+.moyen:active{
+    box-shadow:  inset 10px 10px 20px #1c1c1c,
+             inset -10px -10px 20px #262626;
+}
+
+#outlook img{
+    height: 94px;
+    width: 100px;
+}
+
+#insta img{
+    height: 100px;
+    width: 100px;
+}
+    
+#twitter img{
+    height: 81px;
+    width: 100px;
+    
+}
+    
+
+.twitter-widget{
+    height: 100px;
+    width: 100px;
+    background: #212121;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.miniatures{
+    height: 90%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    
+    background: #212121;
+}
+.miniatures a{
+    text-decoration: none;
+    position: absolute;
+    opacity: 100%;
+    transition-duration: 0.2s;
+    color: #FAF8FF;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.miniatures a:hover{
+    opacity: 100%;
+    transition-duration: 0.5s;
+    text-decoration: underline
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
