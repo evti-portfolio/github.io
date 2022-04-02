@@ -1,0 +1,93 @@
+body{
+    margin: 20px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: rgba(33,33,33,1);
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position:inherit;
+}
+
+.menu a span{
+    color: white;
+    font-size: 60px;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.logo{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fond {
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    
+    background: linear-gradient(345deg, rgba(225,48,108,1) 0%, rgba(193,53,132,1) 60%, rgba(131,58,180,1) 80%, rgba(88,81,219,1) 89%, rgba(64,93,230,1) 96%);
+    
+    border-radius: 65px
+
+}
+
+.fond2 {
+    margin: 0px;
+    margin-top: 0px;
+    height: 300px;
+    width: 300px;
+    
+    background: radial-gradient(circle at 26% 100%, rgba(255,220,128,1) 5%, rgba(252,175,69,1) 15%, rgba(247,119,55,1) 25%, rgba(245,96,64,0.9) 30%, rgba(253,29,29,0.1) 50%, rgba(252,172,68,0) 100%);
+
+    
+    border-radius: 65px
+
+}
+
+
+
+.cadre{
+    
+    margin-top: -260px;
+    margin-left: 40px;
+    
+    height: 180px;
+    width: 180px;
+    
+    border: 20px white solid;
+    border-radius: 60px
+}
+
+.obj{
+    
+    margin-top: 32.5px;
+    margin-left: 32.5px;
+    
+    height: 75px;
+    width: 75px;
+    
+    border: 20px white solid;
+    border-radius: 100px
+}
+
+.flash{
+    
+    margin-top: -130px;
+    margin-left: 135px;
+    
+    height: 0px;
+    width: 0px;
+    
+    border: 14px white solid;
+    border-radius: 100px
+}
